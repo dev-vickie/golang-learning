@@ -16,4 +16,6 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter the rating of this program:")
 
+	fmt.Println(reader)
+
 }
